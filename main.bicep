@@ -10,6 +10,7 @@ param location string
 param tags object = {
 Environment: 'Production'
 CostCenter: 'BAU'
+Owner: 'DevOpsTeam'
 }
 
 resource rg 'Microsoft.Resources/resourceGroups@2024-03-01' = {
